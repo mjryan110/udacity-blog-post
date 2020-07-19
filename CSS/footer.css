@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-top: 5px solid rgb(235, 235, 240);
+    background-color: rgb(235, 235, 240);
+}
+
+.buttons{
+    height: 30px;
+}

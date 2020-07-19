@@ -1,0 +1,33 @@
+.navbar{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "left right";
+}   
+
+.left{
+    grid-area: left;
+}
+
+.right{
+    grid-area: right;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.menu{
+    font: bold 20px Calibri;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: #333333;
+    border-right: 1px solid rgb(235, 235, 240);
+    border-left: 1px solid rgb(235, 235, 240);
+}
+
+a:hover{
+    background-color: rgb(235, 235, 240);
+}
