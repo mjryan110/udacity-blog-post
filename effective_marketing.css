@@ -1,0 +1,24 @@
+#blog-img{
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#blog-cap{
+    text-align: center;
+}
+
+#effective-header{
+    color: blue;
+}
+
+#QBR-header{
+    color: purple;
+}
+
+#optimization-header{
+    color: red;
+}
